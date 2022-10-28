@@ -6,8 +6,8 @@ public class main {
 
         int seed = 5;
         int populationSize = 10;
-        int maxLifespan = 40;
-        int minLifespan = 10;
+        int maxLifespan = 10;
+        int minLifespan = 5;
         GeneticEngine engine = new GeneticEngine(true);
         engine.init(populationSize, seed, maxLifespan, minLifespan);
         while (engine.population.fittest < 5) {
